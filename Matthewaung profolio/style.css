@@ -1,35 +1,35 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body{
+	background-color: #4d0000;
+	color: goldenrod;
+}
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: silver;
+  background-color: #4d0000;
   overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  color: Black;
+  color: goldenrod;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: goldenrod;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
-  color: black;
-}
 
 .name{
-	color: black;
+	color: goldenrod;
 	font-size: 20px;
 	text-align: center;
 	float: left;
@@ -37,17 +37,51 @@
 }
 .title{
 	color: goldenrod;
-	margin-left: 130px;
+	text-align: center;
+	font-size: 50px;
+}
+.heading-2{
+	color: goldenrod;
+	text-align: center;
+	font-size: 30px;
 }
 
-p{
+.words{
 	font-size: 25px;
-	margin-left: 130px;
+	text-align: center;
 	
 }
 #img{
 	margin-left: 70%;
 }
-#project{
-	margin-left: 10%;
+.projects{
+	margin-left: auto;
+	marign-right: auto; 
+	width:72.3vw;
+}
+#what-watch{
+	border-radius: 50%;
+	width: 70%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+#first-web{
+	border-radius: 50%;
+	width: 70%;
+	height: 450px;
+	margin-left: auto;
+  	margin-right: auto;
+	
+}
+.des-1{
+	font-size: 20px;
+	margin-left: auto;
+	marign-right: auto; 
+	width:72.3vw;
+}
+.about{
+	font-size: 20px;
+	margin-left: auto;
+	marign-right: auto; 
+	width:72.3vw;
 }
